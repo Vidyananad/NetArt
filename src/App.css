@@ -9,7 +9,16 @@ body{
   text-align: center;
 }
 
-.App{
-  display: flex;
-  flex-direction: column;
+@media only screen and (max-width:768px){ 
+  .App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .para{
+   display: none;
+  }
+
 }
